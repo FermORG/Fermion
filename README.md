@@ -1,4 +1,4 @@
-## Welcome to FermionJS
+## Welcome to Fermion
 
 Fermion is visual prototyping tool for React App
 
