@@ -33,7 +33,7 @@ $(document).ready(function() {
 
   initialize();
 
-  $.getJSON('https://api.github.com/repos/reactide/reactide', function(data) {
+  $.getJSON('https://api.github.com/repos/fermorg/fermionjs', function(data) {
     $(".social .stat").text(data.stargazers_count);
   });
 
