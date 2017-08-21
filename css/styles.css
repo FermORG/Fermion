@@ -54,7 +54,7 @@ input::-ms-clear {
     display: none
 }
 a {
-    color: #61dafb
+    color: #0eb1ef
 }
 ul {
     padding: 0
@@ -78,7 +78,7 @@ ul li {
 .social a,
 .social li {
     position: relative;
-    height: 26px
+    height: 50px
 }
 .btn:hover {
     background: #1ebf5e
@@ -126,7 +126,7 @@ ul li {
     }
 }
 .social li {
-    width: 26px;
+    width: 50px;
     display: inline-block;
     vertical-align: middle;
     margin-right: 5px;
@@ -141,8 +141,10 @@ ul li {
 }
 .social a {
     display: block;
-    background: url(../assets/images/ico_social.svg) no-repeat;
-    width: 25px
+    /* background: url(../assets/images/ico_social.svg) no-repeat; */
+     background: url(../assets/images/github/GitHub-Mark-32px.png) no-repeat; 
+    /* background: url(../assets/images/logo1.png) no-repeat; */
+    width: 50px
 }
 .social a .stat {
     display: block;
@@ -177,7 +179,7 @@ ul li {
     height: 100px
 }
 .social .git a {
-    background-position: -51px 0
+    /* background-position: -51px 0 */
 }
 #logo {
     display: block;
@@ -227,7 +229,7 @@ ul li {
         -webkit-border-image: -webkit-linear-gradient(#7027d1, #0050bc) 1 100%;
         -moz-border-image: -moz-linear-gradient(#7027d1, #0050bc) 1 100%;
         -o-border-image: -o-linear-gradient(#7027d1, #0050bc) 1 100%;
-        border-image: linear-gradient(to bottom, #03afef, #61DAFB) 1 100%;
+        border-image: linear-gradient(to bottom, #03afef, #0eb1ef) 1 100%;
 
     }
 }
@@ -376,24 +378,24 @@ ul li {
         transition: box-shadow .3s ease-in-out
     }
     .menu-hold li.active:nth-child(1) {
-        box-shadow: inset 5px 0 0 0 #C9F2C7
+        box-shadow: inset 5px 0 0 0 #0eb1ef
     }
     .menu-hold li.active:nth-child(1) a {
-        color: #C9F2C7
+        color: #0eb1ef
     }
     .menu-hold li.active:nth-child(2) {
-        box-shadow: inset 5px 0 0 0 #61dafb;
+        box-shadow: inset 5px 0 0 0 #0eb1ef;
         -webkit-transition: .5s;
         transition: .5s
     }
     .menu-hold li.active:nth-child(2) a {
-        color: #61dafb
+        color: #0eb1ef
     }
     .menu-hold li.active:nth-child(3) {
-        box-shadow: inset 5px 0 0 0 #8c00eb
+        box-shadow: inset 5px 0 0 0 #0eb1ef
     }
     .menu-hold li.active:nth-child(3) a {
-        color: #8c00eb
+        color: #0eb1ef
     }
     .menu-hold li.active:nth-child(4) {
         box-shadow: inset 5px 0 0 0 #c4eb00
@@ -500,7 +502,7 @@ ul li {
 .home h1 {
     font-size: 50px;
     font-weight: 100;
-    color: #61dafb;
+    color: #0eb1ef;
     line-height: 1;
     margin: 0 0 20px
 }
@@ -512,7 +514,7 @@ ul li {
 }
 .home h2 {
     font-size: 22px;
-    color: #fff;
+    color: #000;
     font-weight: 100;
     line-height: 1.4;
     margin: 0 0 50px
@@ -604,7 +606,7 @@ ul li {
 .guides h1 {
     font-size: 40px;
     font-weight: 400;
-    color: #61dafb;
+    color: #0eb1ef;
     line-height: 1;
     margin: 0 0 30px;
     padding: 0
@@ -692,7 +694,7 @@ ul li {
     }
     .sub-menu li a.active,
     .sub-menu li a:hover {
-        color: #61dafb
+        color: #0eb1ef
     }
 }
 .sub-menu h5 {
