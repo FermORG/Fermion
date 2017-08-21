@@ -29,7 +29,7 @@ body {
     font: 16px/30px Avenir, sans-serif;
     font-weight: 200;
     color: rgba(255, 255, 255, .8);
-    background: #1c1f2c
+    background: #fff;
 }
 body.pjax-loading #page-content {
     opacity: .3
@@ -215,9 +215,8 @@ ul li {
         display: block
     }
     #menu {
-        /* width: 220px; */
         width: 100%; 
-        background: #fff;
+        background: #1E1E24;
         height: 100%;
         text-align: center;
         position: fixed;
@@ -228,7 +227,8 @@ ul li {
         -webkit-border-image: -webkit-linear-gradient(#7027d1, #0050bc) 1 100%;
         -moz-border-image: -moz-linear-gradient(#7027d1, #0050bc) 1 100%;
         -o-border-image: -o-linear-gradient(#7027d1, #0050bc) 1 100%;
-        border-image: linear-gradient(to bottom, #7027d1, #0050bc) 1 100%
+        border-image: linear-gradient(to bottom, #03afef, #61DAFB) 1 100%;
+
     }
 }
 @media (min-width: 992px) {
@@ -376,10 +376,10 @@ ul li {
         transition: box-shadow .3s ease-in-out
     }
     .menu-hold li.active:nth-child(1) {
-        box-shadow: inset 5px 0 0 0 #7027d1
+        box-shadow: inset 5px 0 0 0 #C9F2C7
     }
     .menu-hold li.active:nth-child(1) a {
-        color: #7027d1
+        color: #C9F2C7
     }
     .menu-hold li.active:nth-child(2) {
         box-shadow: inset 5px 0 0 0 #61dafb;
@@ -402,7 +402,7 @@ ul li {
         color: #c4eb00
     }
     .menu-hold li a {
-        color: #000;
+        color: #CED3DC;
         font-size: 24px;
         line-height: 2.5
     }
