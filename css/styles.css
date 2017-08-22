@@ -28,7 +28,7 @@ body {
     -webkit-text-size-adjust: none;
     font: 16px/30px Avenir, sans-serif;
     font-weight: 200;
-    color: rgba(255, 255, 255, .8);
+    color: rgba(0, 0, 0, .8);
     background: #fff;
 }
 body.pjax-loading #page-content {
@@ -39,7 +39,7 @@ body.pjax-loading #page-content {
     body {
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-        color: #fff
+        color: #000
     }
 }
 button,
@@ -318,7 +318,7 @@ ul li {
 }
 @media screen and (min-width: 992px) and (max-height: 750px) {
     #menu {
-        overflow-y: scroll
+         /* overflow-y: scroll  */
     }
 }
 .supported {
@@ -613,7 +613,7 @@ ul li {
 }
 .guides h2,
 .guides h4 {
-    color: #fff
+    color: #000
 }
 .guides h2 {
     font-size: 22px;
