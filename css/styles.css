@@ -633,7 +633,10 @@ ul li {
 }
 .guides .pic {
     margin: 0 -17px;
-    text-align: center
+    text-align: center;
+    height: 400px;
+    width: 900px;
+    
 }
 .guides .pic img {
     max-width: 100%
