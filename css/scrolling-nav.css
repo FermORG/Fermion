@@ -8,6 +8,21 @@ nav {
   background-color: #1E1E24;
 }
 
+nav li {
+  font-size: 1.1rem;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+nav .icon-link {
+  padding-top: .35rem;
+}
+
+h2 {
+  font-size: 2.8rem;
+  margin-bottom: 30px;
+}
+
  header h1 {
   font-size: 3.5rem;
 }
@@ -20,6 +35,14 @@ header {
   padding: 120px 0 100px;
 }
 
+hr {
+  margin: 70px auto;
+}
+
+/* .feature-list > div {
+  margin-top: 20px;
+} */
+
 @media (min-width: 992px) {
   header {
     padding: 126px 0 100px;
@@ -27,5 +50,5 @@ header {
 }
 
 section {
-  padding: 150px 0;
+  padding: 60px 0;
 }
